@@ -1,0 +1,60 @@
+ .header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; /* Ensure items are spread out */
+ } 
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+} 
+
+.header__icon {
+    width: 60px; /* Adjust the width of the logo */
+ } 
+
+ a > span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+} 
+
+/* Adjustments for smaller screens */
+ @media screen and (max-width: 768px) {
+    .header {
+        margin: 0;
+        padding: .5rem;
+    }
+
+    .headerLeft {
+        flex: 1; /* Take up available space */
+     } 
+
+     .headerRight {
+        display: none; /* Hide right side links on smaller screens */
+     } 
+
+     .header__icon {
+        width: 40px; /* Adjust the width of the logo */
+     } 
+
+     a > span { 
+         margin: 0 15px; 
+ } 
+}  
+
+
+.headerRight{
+  position: absolute;
+  left: 25%;
+  border-radius:15px;
+
+  /* padding: 10px; */
+  /* margin-right:10%; */
+ 
+}
+
+ 
