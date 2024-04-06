@@ -12,7 +12,7 @@ function Footer() {
             
             
             
-            <Link to="/">tMovies</Link>
+            <Link to="/">IMDB</Link>
           </div>
         </div>
         <div className='footer__content__menus'>

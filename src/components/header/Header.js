@@ -54,7 +54,7 @@ const Header = () => {
                 <Link to="/">
                     <img className="header__icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" alt="Logo" />
                 </Link>
-                <Link to="/movies/popular" style={{ textDecoration: "none" }}><span>popular</span></Link>
+                <Link to="/movies/popular" style={{ textDecoration: "none" }}><span>Popular</span></Link>
                 <Link to="/movies/top_rated" style={{ textDecoration: "none" }}><span>Top Rated</span></Link>
                 <Link to="/movies/upcoming" style={{ textDecoration: "none" }}><span>Upcoming</span></Link>
             </div>
@@ -66,10 +66,10 @@ const Header = () => {
                         value={searchQuery} 
                         onChange={handleChange} 
                         // style={{padding:"10px"}}
-                        style={{ padding: "10px", marginRight: "10px" }}
+                        style={{ padding: "10px", marginRight:"680px" }}
                     
                     />
-                    <button type="submit" style={{padding:"10px",borderRadius:"15px",gap:"15px"}}>Search</button>
+                    <button type="submit" style={{padding:"10px",borderRadius:"15px",gap:"15px", width:"70px",position:"absolute",left:"52%",}}>Search</button>
                 </form>
             </div>
         </div>
