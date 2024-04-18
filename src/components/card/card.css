@@ -5,35 +5,45 @@
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    margin: 0.5rem; /* Adjusted margin for better spacing */
+    margin: 0.5rem; 
     cursor: pointer;
     
-    min-width: 300px; /* Adjusted min-width for larger screens */
-    height: 450px; /* Adjusted height for larger screens */
+    min-width: 300px; 
+    height: 450px; 
     z-index: 0;
     border: 1px solid rgb(99, 99, 99);
 }
 
-.cards:hover {
+/* .cards:hover {
     transform: scale(1.2);
     z-index: 1000;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+.cards:hover {
+    transform: scale(1.2);
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px 0px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px 0px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px 0px, 
+                rgba(0, 0, 0, 0.17) 0px 12px 13px 0px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px 0px; 
 }
 
+
 .cards__img {
-    height: 450px; /* Adjusted height for larger screens */
+    height: 450px; 
 }
 
 .cards__overlay {
     position: absolute;
     padding: 0 1rem 1rem 1rem;
     bottom: 0px;
-    height: 440px; /* Adjusted height for larger screens */
-    display: flex;
+    height: 440px; 
+       display: flex;
     flex-direction: column;
     width: 85%;
     justify-content: flex-end;
-    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,0));
     opacity: 0;
     transition: opacity .2s;
 }
@@ -44,13 +54,13 @@
 
 .card__title {
     font-weight: 900;
-    font-size: 1.2rem; /* Adjusted font size for larger screens */
-    margin-bottom: 0.6rem; /* Adjusted margin for better spacing */
+    font-size: 1.2rem; 
+    margin-bottom: 0.6rem; 
 }
 
 .card__runtime {
-    font-size: .9rem; /* Adjusted font size for larger screens */
-    margin-bottom: 0.5rem; /* Adjusted margin for better spacing */
+    font-size: .9rem; 
+    margin-bottom: 0.5rem; 
 }
 
 .card__rating {
@@ -59,6 +69,6 @@
 
 .card__description {
     font-style: italic;
-    font-size: .9rem; /* Adjusted font size for larger screens */
-    margin-bottom: 0.5rem; /* Adjusted margin for better spacing */
+    font-size: .9rem; 
+    margin-bottom: 0.5rem; 
 }
