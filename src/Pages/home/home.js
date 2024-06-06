@@ -67,7 +67,7 @@ function Home() {
               textAlign: "center",
             }}
           >
-            <button
+            {/* <button
               className="Btn"
               onClick={log}
               style={{
@@ -90,7 +90,7 @@ function Home() {
               }}
             >
               SignUp
-            </button>
+            </button> */}
           </div>
         </>
       )}

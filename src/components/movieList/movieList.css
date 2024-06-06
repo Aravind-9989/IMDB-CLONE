@@ -1,4 +1,4 @@
-.movie__list {
+/* .movie__list {
     padding: 0 3rem 3rem 3rem;
 }
 
@@ -11,4 +11,71 @@ margin:  2.5rem;
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .movie__list {
+        padding: 0 1rem 1rem 1rem; 
+    }
+    
+    .list__title {
+        font-size: 1.5rem; 
+        margin: 1rem; 
+    }
+    
+    .list__cards {
+        justify-content: space-around; 
+    }
+} */
+/* dchhjdwvchjbdic */
+
+
+
+
+
+
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.list__title {
+    font-size: 1.75rem;
+    margin: 2.5rem;
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .movie__list {
+        padding: 0 1rem 1rem 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .list__title {
+        font-size: 1.5rem; /* Decrease font size for smaller screens */
+        margin: 1rem; /* Adjust margin for smaller screens */
+    }
+
+    .list__cards {
+        justify-content: space-around; /* Adjust card alignment for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .movie__list {
+        padding: 0.5rem; /* Further adjust padding for smaller screens */
+    }
+
+    .list__title {
+        font-size: 1.2rem; /* Further decrease font size for smaller screens */
+        margin: 0.5rem; /* Further adjust margin for smaller screens */
+    }
+
+    .list__cards {
+        justify-content: center; /* Center card alignment for smaller screens */
+    }
 }
