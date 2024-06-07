@@ -1,25 +1,75 @@
-.posterImage__title {
+/* .posterImage__title {
     font-weight: 900;
-    font-size: 30px; /* Increased font size */
+    font-size: 30px; 
     margin-bottom: 0.4rem;
-    /* text-align: left; */
+    
 }
 
 .posterImage__runtime {
-    font-size: 2.5rem; /* Increased font size */
+    font-size: 2.5rem; 
     margin-bottom: 1rem;
 }
 
 .posterImage__rating {
     margin-left: 3rem;
-    font-size: 1.2rem; /* Increased font size */
+    font-size: 1.2rem; 
 }
 
 .posterImage__description {
     font-style: italic;
-    font-size: 1.2rem; /* Increased font size */
+    font-size: 1.2rem; 
     margin-bottom: 0.25rem;
     display: flex;
     text-align: left;
     width: 50%;
-}
+} */
+
+.posterImage__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .posterImage__title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .posterImage__runtime {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .posterImage__rating {
+    margin-left: 10px;
+    font-size: 1.2em;
+    color: gold;    
+  }
+  
+  .posterImage__description {
+    font-size: 1em;
+  }
+  
+  @media (max-width: 768px) {
+    .posterImage__title {
+      font-size: 1.5em;
+    }
+  
+    .posterImage__runtime,
+    .posterImage__rating {
+      font-size: 1em;
+    }
+  
+    .posterImage__description {
+      font-size: 0.9em;
+    }
+  }
+  
