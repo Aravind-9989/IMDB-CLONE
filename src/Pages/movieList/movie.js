@@ -57,6 +57,7 @@ const Movie = () => {
                     
                 </div>
             </div>
+            {/* <h1>hello world</h1> */}
             <div className="movie__links">
                 <div className="movie__heading">Useful Links</div>
                 {
